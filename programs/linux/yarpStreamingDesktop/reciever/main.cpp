@@ -38,7 +38,7 @@ int main()
     Network yarp;
     cout<<"Iniciando red de YARP"<<endl;
     BufferedPort<ImageOf<PixelRgb> > port;
-    port.open("/receptor_desktop");
+    port.open("/yarpStreamingDesktop/img:i");
     cout<<"Esperando fuentes de imagen..."<<endl;
 
     while (true) {

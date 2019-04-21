@@ -37,9 +37,9 @@ int main()
     cout<<"Iniciando red de YARP..."<<endl;
     Port puerto_envio;  	
     cout<<"Iniciando cliente..."<<endl;
-    cout<<"Abriendo puerto de envío con nombre /emisor_desktop"<<endl;
-    puerto_envio.open("/emisor_desktop");
-//    Network::connect("/emisor_desktop","/receptor_desktop");
+    cout<<"Abriendo puerto de envío con nombre /yarpStreamingDesktop/img:o"<<endl;
+    puerto_envio.open("/yarpStreamingDesktop/img:o");
+//    Network::connect("/yarpStreamingDesktop/img:o","/yarpStreamingDesktop/img:i");
     cout<<"Enviando fuentes de imágen.."<<endl;
     Mat imagen;
 	ImageOf<PixelBgr> B; 
@@ -50,11 +50,8 @@ int main()
    		B.setExternal(imagen.data,imagen.size[1],imagen.size[0]);
    		puerto_envio.write(B); 
 		system("rm desktop.jpg");
-
 }
-
     return 0;
-
 }
 
 

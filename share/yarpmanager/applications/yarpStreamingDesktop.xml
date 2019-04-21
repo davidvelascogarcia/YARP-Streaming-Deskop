@@ -4,13 +4,13 @@
 
 <!--- Nombre aplicación -->
 
-<name>YARP Streaming Desktop</name>
+<name>yarpStreamingDesktop</name>
 
-<!--- Módulo de recepción de escritorio -->
+<!--- Módulo de recepción de control vía YARP -->
 
     <module>
-        <name>receptor_desktop</name>
-	<workdir>./linux/YARP_Streaming_Desktop_Receptor/build</workdir> 
+        <name>yarpStreamingDesktopReciver</name>
+	<workdir>./../programs/linux/yarpStreamingDesktop/reciever/build</workdir> 
         <node>localhost</node>
     </module>
 
@@ -22,6 +22,3 @@
     </module>
 
 </application>
-
-
-

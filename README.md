@@ -1,15 +1,18 @@
 # YARP: Streaming Desktop
-[![Build Status](https://travis-ci.org/davidvelascogarcia/YARP-Streaming-Desktop.svg?branch=master)](https://travis-ci.org/davidvelascogarcia/YARP-Streaming-Desktop)
+[![Build Status](https://travis-ci.org/davidvelascogarcia/yarp-streaming-desktop.svg?branch=master)](https://travis-ci.org/davidvelascogarcia/yarp-streaming-desktop)
 
 - [Introducción](#introducción)
+- [Listado de programas](#listado-de-programas)
 - [Enlaces de interés](#enlaces-de-interés)
 
 ## Introduccción
 
-YARP Streaming Desktop. 
-- Aplicación para el streaming de escritorio en red, con emisor y receptor
-- Envío vía YARP.
+`yarpStreamingDesktop`, implementación de aplicación para el streaming de escritorio en red, con emisor y receptor. Envío vía `YARP`.
+
+## Listado de programas
+
+Se adjuntan el listado de aplicaciones implementadas en [./programs](./programs)
 
 ## Enlaces de interés
 
-[Programa](./programs)
+[YARP](http://www.yarp.it/)

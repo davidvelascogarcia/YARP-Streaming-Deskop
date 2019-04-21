@@ -1,0 +1,8 @@
+
+<!--- Módulo de recepción de escritorio vía YARP -->
+
+    <module>
+        <name>yarpStreamingDesktopReciever</name>
+	<workdir>./../programs/linux/yarpStreamingDesktop/reciever/build</workdir> 
+        <node>localhost</node>
+    </module>

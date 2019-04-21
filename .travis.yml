@@ -55,7 +55,8 @@ install:
 before_script:
   - cd programs
   - cd linux
-  - cd YARP_Streaming_Desktop_Emisor
+  - cd yarpStreamingDesktop
+  - cd sender
   - mkdir build
   - cd build
   - cmake ..
