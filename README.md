@@ -1,4 +1,4 @@
-# YARP: Streaming Video
+# YARP: Streaming Desktop
 [![Build Status](https://travis-ci.org/davidvelascogarcia/YARP-Streaming-Desktop.svg?branch=master)](https://travis-ci.org/davidvelascogarcia/YARP-Streaming-Desktop)
 
 - [Introducción](#introducción)
