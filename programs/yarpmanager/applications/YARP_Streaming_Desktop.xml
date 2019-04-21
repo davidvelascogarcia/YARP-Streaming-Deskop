@@ -1,0 +1,27 @@
+<!--- YARPMANAGER YARP: Streaming Desktop -->
+
+<application>
+
+<!--- Nombre aplicación -->
+
+<name>YARP Streaming Desktop</name>
+
+<!--- Módulo de recepción de escritorio -->
+
+    <module>
+        <name>receptor_desktop</name>
+	<workdir>./linux/YARP_Streaming_Desktop_Receptor/build</workdir> 
+        <node>localhost</node>
+    </module>
+
+<!--- Módulo de inicio servidor YARP -->
+
+    <module>
+        <name>yarpserver</name>
+        <node>localhost</node>
+    </module>
+
+</application>
+
+
+
