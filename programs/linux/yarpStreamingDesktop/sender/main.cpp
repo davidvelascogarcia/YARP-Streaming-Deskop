@@ -39,7 +39,7 @@ int main()
     cout<<"Iniciando cliente..."<<endl;
     cout<<"Abriendo puerto de envío con nombre /yarpStreamingDesktop/img:o"<<endl;
     puerto_envio.open("/yarpStreamingDesktop/img:o");
-//    Network::connect("/yarpStreamingDesktop/img:o","/yarpStreamingDesktop/img:i");
+//    Network::connect("/yarpStreamingDesktop/img:o","/yarpStreamingDesktop/img:i","mjpeg",true);
     cout<<"Enviando fuentes de imágen.."<<endl;
     Mat imagen;
 	ImageOf<PixelBgr> B; 
