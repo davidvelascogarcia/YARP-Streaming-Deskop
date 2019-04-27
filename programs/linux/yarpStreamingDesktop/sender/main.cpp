@@ -46,7 +46,8 @@ int main()
 	while(true)
 	{	
 		system("import -window root desktop.jpg");
-		imagen=imread("desktop.jpg");	
+		imagen=imread("desktop.jpg");
+		cvtColor(imagen, imagen, cv::COLOR_BGR2RGB);	
    		B.setExternal(imagen.data,imagen.size[1],imagen.size[0]);
    		puerto_envio.write(B); 
 		system("rm desktop.jpg");
